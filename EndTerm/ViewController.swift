@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.txtPassword.isSecureTextEntry = true
+        self.hideKeyboardWhenTappedAround()
     
         // Do any additional setup after loading the view.
     }
@@ -76,6 +77,17 @@ class ViewController: UIViewController {
         }
         self.performSegue(withIdentifier: "signup", sender: self)
         
+    }
+}
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+    let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
 }
 

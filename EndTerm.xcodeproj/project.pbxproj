@@ -17,6 +17,7 @@
 		D248C3BD2397EED100E90969 /* EndTermUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D248C3BC2397EED100E90969 /* EndTermUITests.swift */; };
 		D248C3CB2398008200E90969 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D248C3CA2398008200E90969 /* RegisterViewController.swift */; };
 		D248C3CD2398051E00E90969 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D248C3CC2398051E00E90969 /* Validation.swift */; };
+		D248C4112398388800E90969 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D248C4102398388800E90969 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D248C3BE2397EED100E90969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D248C3CA2398008200E90969 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		D248C3CC2398051E00E90969 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		D248C4102398388800E90969 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				D248C3A52397EED100E90969 /* LaunchScreen.storyboard */,
 				D248C3A82397EED100E90969 /* Info.plist */,
 				D248C3CA2398008200E90969 /* RegisterViewController.swift */,
+				D248C4102398388800E90969 /* ProfileViewController.swift */,
 				D248C3CC2398051E00E90969 /* Validation.swift */,
 			);
 			path = EndTerm;
@@ -269,6 +272,7 @@
 				D248C39B2397EECD00E90969 /* AppDelegate.swift in Sources */,
 				D248C39D2397EECD00E90969 /* SceneDelegate.swift in Sources */,
 				D248C3CD2398051E00E90969 /* Validation.swift in Sources */,
+				D248C4112398388800E90969 /* ProfileViewController.swift in Sources */,
 				D248C3CB2398008200E90969 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
